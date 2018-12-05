@@ -1,0 +1,18 @@
+[ERROR] 2014-02-28 22:52:55,786 method:com.superman.chatserver.core.ServerThread.<init>(ServerThread.java:58)
+java.net.BindException: Address already in use: JVM_Bind
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:106)
+	at com.superman.chatserver.core.ServerThread.<init>(ServerThread.java:56)
+	at com.superman.chatserver.core.ChatMain.main(ChatMain.java:29)
+[INFO ] 2014-02-28 22:52:55,800 method:com.superman.chatserver.core.ServerThread.<init>(ServerThread.java:69)
+服务器地址： 192.168.26.1 PORT: 5678
+[INFO ] 2014-02-28 22:53:07,476 method:com.superman.chatserver.core.ServerThread.<init>(ServerThread.java:69)
+服务器地址： 192.168.26.1 PORT: 5678
+[INFO ] 2014-02-28 22:54:02,224 method:com.superman.chatserver.core.ServerThread.<init>(ServerThread.java:69)
+服务器地址： 192.168.26.1 PORT: 5678
+[INFO ] 2014-02-28 22:54:28,240 method:com.superman.chatserver.core.ServerThread.<init>(ServerThread.java:69)
+服务器地址： 192.168.26.1 PORT: 5678
